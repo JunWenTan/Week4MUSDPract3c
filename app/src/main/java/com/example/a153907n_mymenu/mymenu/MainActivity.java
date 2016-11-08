@@ -76,7 +76,7 @@ public class MainActivity extends AppCompatActivity {
 
     private void addSubMenu(Menu menu)
     {
-        SubMenu sm = menu.addSubMenu(subMenuBase, subMenuBase+1, subMenuBase, "submenu")'
+        SubMenu sm = menu.addSubMenu(subMenuBase, subMenuBase+1, subMenuBase, "submenu");
         sm.add(subMenuBase, subMenuBase+2, subMenuBase+2, "sub item1");
         sm.add(subMenuBase, subMenuBase+3, subMenuBase+3, "sub item2");
     }
